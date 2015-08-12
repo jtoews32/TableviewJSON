@@ -14,19 +14,27 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
+-(void) loadView {
+    [super loadView];
     
     _tableView = [[UITableView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+ 
     _tableView.delegate = self;
     _tableView.dataSource = self;
     _tableView.scrollEnabled = FALSE;
     _tableView.backgroundColor = [UIColor clearColor];
     
     [self.view addSubview:_tableView];
+    
 
-    // Do any additional setup after loading the view, typically from a nib.
+    
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    // Do any additional setup after loading the view, typically from a nib
 }
 
 - (void)didReceiveMemoryWarning {
