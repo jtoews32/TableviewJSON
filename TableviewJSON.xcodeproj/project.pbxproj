@@ -11,7 +11,6 @@
 		144901471B7A91420009CA9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 144901461B7A91420009CA9E /* AppDelegate.m */; };
 		1449014A1B7A91420009CA9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144901491B7A91420009CA9E /* ViewController.m */; };
 		1449014F1B7A91420009CA9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1449014E1B7A91420009CA9E /* Images.xcassets */; };
-		144901521B7A91420009CA9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 144901501B7A91420009CA9E /* LaunchScreen.xib */; };
 		1449015E1B7A91420009CA9E /* TableviewJSONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1449015D1B7A91420009CA9E /* TableviewJSONTests.m */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +33,6 @@
 		144901481B7A91420009CA9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		144901491B7A91420009CA9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1449014E1B7A91420009CA9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		144901511B7A91420009CA9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		144901571B7A91420009CA9E /* TableviewJSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableviewJSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1449015C1B7A91420009CA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1449015D1B7A91420009CA9E /* TableviewJSONTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableviewJSONTests.m; sourceTree = "<group>"; };
@@ -84,7 +82,6 @@
 				144901481B7A91420009CA9E /* ViewController.h */,
 				144901491B7A91420009CA9E /* ViewController.m */,
 				1449014E1B7A91420009CA9E /* Images.xcassets */,
-				144901501B7A91420009CA9E /* LaunchScreen.xib */,
 				144901411B7A91420009CA9E /* Supporting Files */,
 			);
 			path = TableviewJSON;
@@ -196,7 +193,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				144901521B7A91420009CA9E /* LaunchScreen.xib in Resources */,
 				1449014F1B7A91420009CA9E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,17 +234,6 @@
 			targetProxy = 144901581B7A91420009CA9E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		144901501B7A91420009CA9E /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				144901511B7A91420009CA9E /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1449015F1B7A91420009CA9E /* Debug */ = {
@@ -404,6 +389,7 @@
 				144901631B7A91420009CA9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		144901641B7A91420009CA9E /* Build configuration list for PBXNativeTarget "TableviewJSONTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +398,7 @@
 				144901661B7A91420009CA9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

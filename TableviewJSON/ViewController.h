@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController<UITableViewDataSource, UITableViewDelegate> {
     UITableView* _tableView;
+    NSMutableArray *_mutableArray;
+    NSMutableArray *_mutableImageArray;
+    UIActivityIndicatorView *_spinner;
 }
 
 @end
