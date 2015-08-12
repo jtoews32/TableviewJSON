@@ -8,9 +8,6 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-
-@end
 
 @implementation ViewController
 
@@ -36,11 +33,6 @@
     _tableView.delegate = self;
     _tableView.dataSource = self;
     _tableView.scrollEnabled = FALSE;
-    
-    
-    
- 
-    
     
 
     dispatch_queue_t backgroundQueue = dispatch_queue_create("dispatch.test.queue", 0);
@@ -82,6 +74,11 @@
         });
     });
     
+}
+
+- (NSUInteger)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskPortrait;
 }
 
 
@@ -144,16 +141,6 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    /*
-    if (indexPath.row == 0)
-    {
-        if (!self.pentagonViewController)
-            self.pentagonViewController = [[PentagonViewController alloc] initWithNibName:nil bundle:nil];
-        
-        [self.navigationController pushViewController:self.pentagonViewController animated:YES];
-    }
-    */
-    
 }
 
 
